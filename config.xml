@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.dioseaexaltado.diosseaexaltado" version="1.0.0" xmlns="https://dioseaexaltado.com" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Dios sea Exaltado - Cancionero con Acordes</name>
+    <description>
+        Himnario y cancionero cristiano con acordes y partituras.
+    </description>
+    <author email="zionhc@gmail.com" href="http://tzionhc.tech">
+        Harold Caballero
+    </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+	<!-- Allow links to dioseaexaltado.com/partituras-vocales-e-instrumentales/ to open in a browser -->
+	<allow-intent href="https://dioseaexaltado.com/partituras-vocales-e-instrumentales/*" />
+	<!-- Wildcards are allowed for the protocol, as a prefix
+     to the host, or as a suffix to the path -->
+	<allow-intent href="*://*.dioseaexaltado.com/partituras-vocales-e-instrumentales/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon density="ldpi" src="res/icon/android/ldpi.png" />
+        <icon density="mdpi" src="res/icon/android/mdpi.png" />
+        <icon density="hdpi" src="res/icon/android/hdpi.png" />
+        <icon density="xhdpi" src="res/icon/android/xhdpi.png" />
+        <icon density="xxhdpi" src="res/icon/android/xxhdpi.png" />
+        <icon density="xxxhdpi" src="res/icon/android/xxxhdpi.png" />
+        <splash density="port-hdpi" src="res/screen/android/screen-hdpi-portrait.png" />
+        <splash density="port-ldpi" src="res/screen/android/screen-ldpi-portrait.png" />
+        <splash density="port-mdpi" src="res/screen/android/screen-mdpi-portrait.png" />
+        <splash density="port-xhdpi" src="res/screen/android/screen-xhdpi-portrait.png" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <plugin name="phonegap-plugin-mobile-accessibility" spec="https://github.com/phonegap/phonegap-mobile-accessibility.git" />
+    <plugin name="cordova-plugin-splashscreen" spec="https://github.com/apache/cordova-plugin-splashscreen.git" />
+    <engine name="ios" spec="^4.5.5" />
+    <engine name="android" spec="^7.0.0" />
+</widget>

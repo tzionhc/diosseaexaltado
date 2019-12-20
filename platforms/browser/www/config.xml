@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.dioseaexaltado.diosseaexaltado" version="1.0.0" xmlns="https://dioseaexaltado.com" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Device">
+        <param name="browser-package" value="Device" />
+    </feature>
+    <name>Dios sea Exaltado</name>
+    <description>
+        Himnario y cancionero cristiano con acordes y partituras..
+    </description>
+    <author email="zionhc@gmail.com" href="http://zionhc.tech">
+        Harold Caballero
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="https://dioseaexaltado.com/partituras-vocales-e-instrumentales/*" />
+    <allow-intent href="*://*.dioseaexaltado.com/partituras-vocales-e-instrumentales/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+</widget>
